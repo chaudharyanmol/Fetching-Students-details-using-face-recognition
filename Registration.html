@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel = "stylesheet"  type = "text/css" href = "Registrationstyle.css">
+</head>
+<body>
+ <form action="connect.php" method ="post" enctype="multipart/form-data">
+  <h1>Register</h1>
+  <input type="number" name="uniq_id" placeholder="Unique Id">
+   <input type="text" name="u_name" placeholder="Full Name">
+     <input type="email" name="emails" placeholder="Email">
+     <input type="number" name="u_number" placeholder="Phone Number">
+     <input type="text" name="username" placeholder="University Name">
+     <input type="text" name="u_degree" placeholder="Degree">
+     <input type="text" name="u_semester" placeholder="Semester">
+     <input type="text" name="u_cgpa" placeholder="Overall CGPA">
+     <input type="text" name="address" placeholder="Address">
+     <input type="url" name="u_resume" placeholder="Resume Link">
+     <input type="url" name="linkedIn" placeholder="LinkedIn Profile">
+     <input type="url" name="git_hub" placeholder="GitHub Link">
+  <input type="url" name="marksheet10" placeholder="10th Marksheet">
+  <input type="url" name="marksheet12" placeholder="12th Marksheet">
+     <input type="url" name="certificate" placeholder="Certificate Link">
+    <br>Select image to upload:</br>
+ <em> <br>Name your image in this format "Uniqueid Name"</br></em>
+  
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
